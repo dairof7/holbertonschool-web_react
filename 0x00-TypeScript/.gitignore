@@ -1,0 +1,5 @@
+/node_modules
+
+/task_*/package-lock.json
+/task_*/node_modules
+/task_*/dist/
