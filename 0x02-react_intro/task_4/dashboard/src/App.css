@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  color: #E0354B;
+  border-bottom: 4px solid #E0354B;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.App-header p {
+  font-weight: 400;
+}
+
+.App-body{
+  padding: 50px 50px 115px 50px;
+}
+
+
+img {
+  width: 14rem;
+}
+
+.App-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  font-style: italic;
+  border-top: 4px solid #E0354B;
+}
+
+.loginForm {
+  padding: 20px 0px;
+}
+input {
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#btnForm {
+  padding: 3px 6px;
+  background: white;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  cursor: pointer;
+}

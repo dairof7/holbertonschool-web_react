@@ -1,0 +1,10 @@
+.Notifications {
+  padding: 30px 5px;
+  border: 1px solid #E0354B;
+  border-style: dashed;
+  margin-bottom: 20px;
+}
+
+#root-notifications {
+  padding: 5px;
+}
