@@ -1,0 +1,36 @@
+.Notifications {
+  padding: 30px 5px;
+  border: 1px solid #E0354B;
+  border-style: dashed;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 37px;
+  right: 0;
+  text-align: left;
+  margin-right: 10px;
+  padding: 20px 20px;
+  z-index: 1;
+}
+
+.menuItem {
+  top: 0;
+  right: 0px;
+  text-align: right;
+  margin: 10px;
+  position: absolute;
+}
+
+#root-notifications {
+  padding: 5px;
+}
+.Notifications > p:first-of-type {
+  padding-bottom: 10px;
+}
+
+li[data-notification-type="default"] {
+  color: #1d0563;
+}
+
+li[data-notification-type="urgent"] {
+  color: #ff0200;
+}
