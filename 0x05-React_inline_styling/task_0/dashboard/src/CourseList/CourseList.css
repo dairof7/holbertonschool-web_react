@@ -1,0 +1,24 @@
+
+table {
+  text-align: left;
+  margin: 10px;
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+
+th, td {
+  padding: 5px;
+}
+
+td {
+  font-weight: normal;
+}
+
+th {
+  font-weight: bold;
+  border-bottom: 3px solid lightgrey;
+}
+
+tr :only-child {
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+.loginForm {
+  padding: 20px 0px;
+}
+input {
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#btnForm {
+  padding: 3px 6px;
+  background: white;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  cursor: pointer;
+}
